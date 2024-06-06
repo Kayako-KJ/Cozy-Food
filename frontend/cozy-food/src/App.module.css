@@ -1,0 +1,144 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Tiny5&display=swap');
+/* General styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.start {
+  background-image: url("../public/image.png");
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.container {
+  margin: 20px;
+  width: auto;
+  position: relative; /* Ensure the container is positioned relative to the viewport */
+  z-index: 1; /* Ensure the container has a higher z-index than the background */
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  font-family: "Lobster", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: inline-block; /* Ensures the element can be transformed */
+  transition: all 0.3s ease; /* Applies transition to all properties */
+}
+
+a:hover {
+  padding: 3px;
+  transform: scale(1.2);
+  background-color: #F6A493;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds a box-shadow on hover */
+  border-radius: 10px; /* Adds a border-radius on hover */
+}
+
+
+/* navbar */
+.navbar {
+  background-color: #F6A493;
+  border-radius: 30px;
+  border: 1px solid white;
+  outline-offset: -7px;
+  padding: 15px 50px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  min-height: 70px;
+  position: relative; /* Make the navbar positioned relative */
+  z-index: 2; /* Ensure the navbar is above the background */
+  filter: blur(0.4px);
+}
+
+/* logo */
+.logo {
+  font-family: "Lobster", sans-serif;
+  font-style: normal;
+  color: white;
+  font-size: 30px;
+  padding-left: 50px;
+}
+.logoImage {
+  height: 7rem;
+  position: absolute;
+  z-index: 3;
+}
+/* ul */
+.navMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.hamburger {
+  display: none;
+}
+
+/* media queries */
+@media screen and (max-width: 780px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .bar {
+    background-color: white;
+    width: 20px;
+    height: 3px;
+    display: block;
+    margin: 5px;
+    transition: 0.3s ease-in-out;
+  }
+
+  /* adding active class to the bars */
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .navMenu {
+    display: none; /* Hide by default on smaller screens */
+    flex-direction: column;
+    gap: 0;
+    top: 70px;
+    left: 0;
+    text-align: start;
+    width: 100%;
+    transition: 0.9s ease-in-out;
+    background-color: #F6A493;
+    padding: 2px;
+  }
+
+  .navMenu.active {
+    display: flex; /* Show when active */
+  }
+
+  .navMenu li {
+    margin: 1px 0;
+  }
+}
