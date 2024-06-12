@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Melonpan",
+      "description": "A sweet bun with a crispy cookie crust and a fluffy interior.",
+      "ingredients": ["bread dough", "cookie dough", "sugar", "butter", "flour", "yeast"],
+      "instructions": "Combine bread dough ingredients, let rise, form into buns, add cookie dough on top, bake until golden."
+    },
+    {
+      "name": "Anpan",
+      "description": "A sweet roll filled with red bean paste (anko).",
+      "ingredients": ["bread dough", "red bean paste (anko)", "egg wash"],
+      "instructions": "Fill bread dough with red bean paste, shape into rolls, apply egg wash, bake until golden brown."
+    },
+    {
+      "name": "Kare Pan",
+      "description": "A deep-fried bread filled with savory curry.",
+      "ingredients": ["bread dough", "curry filling", "breadcrumbs", "oil for frying"],
+      "instructions": "Fill bread dough with curry, coat with breadcrumbs, deep-fry until golden brown."
+    },
+    {
+      "name": "Shokupan",
+      "description": "A soft and fluffy Japanese milk bread.",
+      "ingredients": ["bread flour", "milk", "sugar", "salt", "yeast", "butter"],
+      "instructions": "Combine ingredients, knead, let rise, shape into loaves, bake until golden brown."
+    },
+    {
+      "name": "Dorayaki",
+      "description": "A confection consisting of two small pancake-like patties wrapped around a filling of sweet red bean paste.",
+      "ingredients": ["flour", "sugar", "eggs", "milk", "red bean paste (anko)"],
+      "instructions": "Make small pancakes, sandwich red bean paste between two pancakes."
+    },
+    {
+      "name": "Taiyaki",
+      "description": "A fish-shaped cake typically filled with red bean paste, custard, or chocolate.",
+      "ingredients": ["flour", "sugar", "baking powder", "eggs", "milk", "filling of choice"],
+      "instructions": "Pour batter into fish-shaped mold, add filling, cook until golden brown."
+    },
+    {
+      "name": "Choux Cream",
+      "description": "Cream-filled pastry puffs, also known as Japanese cream puffs.",
+      "ingredients": ["water", "butter", "flour", "eggs", "cream filling"],
+      "instructions": "Make choux pastry, bake until puffy, fill with cream."
+    },
+    {
+      "name": "Castella",
+      "description": "A sponge cake made with sugar, flour, eggs, and starch syrup.",
+      "ingredients": ["sugar", "flour", "eggs", "starch syrup"],
+      "instructions": "Mix ingredients, pour into mold, bake until golden brown."
+    },
+    {
+      "name": "Japanese Cheesecake",
+      "description": "A light and fluffy cheesecake, often referred to as 'soufflé cheesecake'.",
+      "ingredients": ["cream cheese", "eggs", "sugar", "butter", "flour", "milk"],
+      "instructions": "Combine ingredients, bake in a water bath until set."
+    },
+    {
+      "name": "Mochi Donuts",
+      "description": "A chewy, donut-shaped dessert made with glutinous rice flour.",
+      "ingredients": ["glutinous rice flour", "sugar", "milk", "baking powder"],
+      "instructions": "Combine ingredients, shape into donuts, fry until golden brown."
+    }
+  ]
+  
